@@ -3,5 +3,7 @@ Short little script to remind me on the first of every month to post in a channe
 
 ## To-do
 Add json config file
+
 Error handling
+
 Logging
