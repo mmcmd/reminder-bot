@@ -14,6 +14,4 @@ Below is an example of the config.json file.<br/>
 </pre>
 ## To-do
 
-Error handling
-
-Logging
+See projects tab
