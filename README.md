@@ -8,7 +8,7 @@ Below is an example of the config.json file.<br/>
 <pre>
 {
 	"token":"your-token",
-	"channel":"your-channel-id>",
+	"channel":"your-channel-id",
 	"message":"your-message"
 }
 </pre>
