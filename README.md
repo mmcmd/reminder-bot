@@ -4,13 +4,14 @@ Uses crontab (0 0 1 * *) to call the script
 
 ## Config file
 A config.json file need to be created in the same directory with remiderstat.py
-Below is an example of the config.json file.
+Below is an example of the config.json file.<br/>
+<pre>
 {
-	"token":"<token>",
-	"channel":"<channel>",
-	"message":"<message>"
+	"token":"your-token",
+	"channel":"your-channel-id>",
+	"message":"your-message"
 }
-
+</pre>
 ## To-do
 
 Error handling
