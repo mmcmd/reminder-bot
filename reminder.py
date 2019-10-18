@@ -20,7 +20,8 @@ def main():
     argparser = argparse.ArgumentParser(
         formatter_class=lambda prog:
         argparse.HelpFormatter(prog, max_help_position=40))
-    argparser.add_argument("-c", "--config", help="config file path", type=str,
+    argparser.add_argument("-c", "--config", help="config file path, default is \
+                           set to \"./config/config.json\"", type=str,
                            default="./config/config.json")
     args = argparser.parse_args()
     print(args.config)
