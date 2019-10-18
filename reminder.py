@@ -6,7 +6,7 @@ import argparse
 
 
 def get_config(config_path):
-    print(config_path)
+    # print(config_path)
     # grab ./config.json if it is existed
     config = None
     if os.path.exists(config_path):
@@ -24,7 +24,7 @@ def main():
                            set to \"./config/config.json\"", type=str,
                            default="./config/config.json")
     args = argparser.parse_args()
-    print(args.config)
+    # print(args.config)
     CONFIG = get_config(args.config)
     if not CONFIG:
         message = "Please create a /config/config.json config file in the same"\
