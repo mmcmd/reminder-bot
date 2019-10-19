@@ -64,10 +64,6 @@ We can use cron to automatically run the script periodically in order to keep it
     ```
     0 9 * * * cd /home/tduong/remider-bot && /usr/local/bin/pipenv run python reminder.py -c ./config/your-config.json
     ```
-	  To run schedule the script with pipenv run, the follwing line
-	  ```
-    0 9 * * * cd /home/tduong/remider-bot && /usr/local/bin/pipenv run python reminder.py -c ./config/your-config.json
-    ```
 ## To-do
 
 See projects tab
